@@ -1,0 +1,17 @@
+*.iml
+.gradle/
+/local.properties
+local.properties
+/.idea
+.DS_Store
+Thumbs.db
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+
+# Firebase — each developer supplies their own from the Firebase console.
+# See app/google-services.json.example.
+app/google-services.json

@@ -1,0 +1,442 @@
+<resources>
+    <!-- Global / App Name -->
+    <string name="app_name">BiblioNET</string>
+
+    <!-- Perfil / Profile -->
+    <string name="perfil">Perfil</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="configuracion">Configuración</string>
+    <string name="nivel_lector">Nivel Lector</string>
+    <string name="miembro_desde">Miembro desde %1$s</string>
+    <string name="cuenta_bloqueada">Cuenta bloqueada hasta: %1$s</string>
+    <string name="puntos">PUNTOS</string>
+    <string name="libros">LIBROS</string>
+    <string name="racha">RACHA</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="panel_administracion">Panel de Administración</string>
+    <string name="panel_biblioteca">Panel de Biblioteca</string>
+    <string name="about_biblionet">Acerca de BiblioNET</string>
+    <string name="idioma">Idioma</string>
+    <string name="seleccionar_idioma">Seleccionar Idioma</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cerrar">Cerrar</string>
+
+    <!-- Clasificación / Leaderboard -->
+    <string name="clasificacion">Clasificación</string>
+    <string name="semanal">Semanal</string>
+    <string name="mensual">Mensual</string>
+    <string name="anual">Anual</string>
+    <string name="total">Total</string>
+    <string name="nadie_puntos">Nadie ha ganado puntos esta temporada aún.</string>
+    <string name="tu">(Tú)</string>
+
+    <!-- Quiz Diario -->
+    <string name="quiz_diario">Quiz Diario</string>
+    <string name="quiz_diario_practica">Quiz Diario (Práctica)</string>
+    <string name="modo_practica">Modo Práctica (Sin puntos)</string>
+    <string name="juega_gana_puntos">¡Juega y gana puntos!</string>
+    <string name="aun_no_preguntas">Aún no hay preguntas</string>
+    <string name="vuelve_mas_tarde">El administrador todavía no ha creado el quiz. ¡Vuelve más tarde!</string>
+    <string name="volver_perfil">Volver al perfil</string>
+    <string name="quiz_completado">¡Quiz Completado!</string>
+    <string name="puntos_anadidos">¡Felicidades! Puntos añadidos a tu perfil.</string>
+    <string name="practica_completado">Modo Práctica completado.</string>
+    <string name="puntuacion_obtenida">PUNTUACIÓN OBTENIDA</string>
+    <string name="pts">pts</string>
+    <string name="puntuacion_perfecta">¡Puntuación Perfecta!</string>
+    <string name="volver_a_jugar">Volver a jugar</string>
+
+    <!-- Navegación / Home -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_mapa">Mapa</string>
+    <string name="nav_libros">Libros</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="hola_usuario">Hola, %1$s</string>
+    <string name="no_libros_encontrados">No se encontraron libros</string>
+    <string name="buscar_titulo_autor">Buscar título o autor...</string>
+    <string name="filtros">Filtros</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="buscar_categoria">Buscar categoría...</string>
+    <string name="seleccionar_categoria">Seleccionar Categoría</string>
+    <string name="todas">Todas</string>
+    <string name="aplicar_filtros">Aplicar Filtros</string> <!-- Unificado -->
+    <string name="ordenar_por_valoracion">Ordenar por valoración</string>
+    <string name="ordenar_por_fecha">Ordenar por fecha</string>
+    <string name="ninguno">Ninguno</string>
+    <string name="filtrar_por_estrellas">Filtrar por estrellas</string>
+    <string name="estrellas_o_mas">%1$d o más</string>
+    <string name="mas_recientes">Más recientes</string>
+    <string name="mas_antiguos">Más antiguos</string>
+    <string name="mejor_valoracion">Mejor valoración</string>
+    <string name="peor_valoracion">Peor valoración</string>
+
+    <!-- Panel Admin -->
+    <string name="panel_admin">Panel de Admin</string>
+    <string name="gestion_preguntas">Gestión de Preguntas</string>
+    <string name="desc_gestion_preguntas">Añade, edita o elimina las preguntas que los usuarios responderán en el Quiz Diario.</string>
+    <string name="entrar_gestor_quiz">Entrar al Gestor del Quiz</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="bibliotecas">Bibliotecas</string>
+    <string name="gestion_roles">Gestión de Roles</string>
+    <string name="gestion_bibliotecas">Gestión de Bibliotecas</string>
+    <string name="ver_todo">Ver Todo</string>
+    <string name="nombre_col">NOMBRE</string>
+    <string name="info_col">INFO</string>
+    <string name="acc_col">ACC</string>
+    <string name="sin_tel">Sin tel.</string>
+    <string name="add_new_library">+ Añadir Biblioteca</string>
+    <string name="seed_db">Llenar BD con Libros (20)</string>
+
+    <!-- Mapa / Buscar -->
+    <string name="buscar_calle_ciudad">Calle, ciudad o biblioteca...</string>
+    <string name="filtro_distancia_km">Filtro de distancia (Km):</string>
+    <string name="ej_20_vacio">Ej: 20 (Vacío = Mostrar Todas)</string>
+    <string name="obteniendo_gps">Obteniendo ubicación GPS...</string>
+    <string name="ubicacion_buscada">Ubicación buscada</string>
+    <string name="no_libros_disponibles">No hay libros disponibles.</string>
+    <string name="catalogo_destacado">Catálogo Destacado</string>
+    <string name="autor_formato">Autor: %1$s</string>
+    <string name="disponible">Disponible</string>
+    <string name="no_disponible">No disponible</string>
+
+    <!-- Login / Registro -->
+    <string name="bienvenido_nuevo">Bienvenido de nuevo</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="olvidado_contrasena">¿Has olvidado tu contraseña?</string>
+    <string name="correo_recuperacion_exito">Correo de recuperación enviado con éxito</string>
+    <string name="entrar">Entrar</string>
+    <string name="volver">Volver</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="tu_biblioteca_digital">Tu biblioteca digital inteligente</string>
+    <string name="derechos_reservados">©2026. BiblioNET. Todos los derechos reservados.</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="email">Email</string>
+
+    <!-- Mis Libros / Usuario -->
+    <string name="mis_libros">Mis Libros</string>
+    <string name="atras">Atrás</string>
+    <string name="no_libros_prestados">No tienes libros prestados</string>
+    <string name="personal_library">Biblioteca Personal</string>
+    <string name="manage_books">Gestiona tus libros, %1$s</string>
+    <string name="filter_library">Filtrar mi biblioteca...</string>
+    <string name="real_time_active">Búsqueda en tiempo real activa</string>
+    <string name="manual_mode">Modo manual: pulsa la flecha para filtrar</string>
+    <string name="tab_reservations">Reservas</string>
+    <string name="tab_favorites">Favoritos</string>
+    <string name="tab_history">Historial</string>
+    <string name="empty_reservations">No tienes reservas pendientes</string>
+    <string name="empty_favorites">Tu lista de favoritos está vacía</string>
+    <string name="empty_history">Aún no has leído ningún libro</string>
+    <string name="status_overdue">retrasado</string>
+    <string name="status_reserved">reservado</string>
+    <string name="status_pending">pendiente</string>
+    <string name="status_active">activo</string>
+    <string name="status_returned">devuelto</string>
+
+    <!-- Perfil (Edición y errores) -->
+    <string name="error_subiendo_imagen">Error subiendo imagen</string>
+    <string name="permiso_fotos_necesario">Se necesita permiso para acceder a fotos</string>
+    <string name="foto_perfil">Foto de perfil</string>
+    <string name="cambiar_foto">Cambiar foto</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="puntos_totales">Puntos Totales</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+
+    <!-- Admin: Gestión Quiz -->
+    <string name="reset_quiz_title">Reiniciar Quiz Diario</string>
+    <string name="reset_quiz_desc">¿Estás seguro? Al reiniciar, el sistema seleccionará 5 preguntas al azar y te permitirá jugar de nuevo como si fuera un nuevo día para ganar puntos.</string>
+    <string name="quiz_restarted_msg">¡Quiz reiniciado! Vuelve al Perfil para jugar.</string>
+    <string name="reset_now">Reiniciar Ahora</string>
+    <string name="delete_question_title">Eliminar Pregunta</string>
+    <string name="delete_question_desc">¿Estás seguro de que quieres eliminar esta pregunta del Quiz? Esta acción no se puede deshacer.</string>
+    <string name="delete">Eliminar</string>
+    <string name="manage_daily_quiz">Gestionar Quiz Diario</string>
+    <string name="reset_quiz_icon_desc">Reiniciar Quiz</string>
+    <string name="add_question">Añadir Pregunta</string>
+    <string name="no_questions_admin">No hay preguntas. ¡Añade algunas para el Quiz!</string>
+    <string name="options_correct_format">Opciones: %1$d | Correcta: Opción %2$s</string>
+    <string name="edit">Editar</string>
+    <string name="new_question">Nueva Pregunta</string>
+    <string name="edit_question">Editar Pregunta</string>
+    <string name="question_label">Pregunta</string>
+    <string name="options_fill_all">Opciones (Rellena las 4)</string>
+    <string name="option_a">Opción A</string>
+    <string name="option_b">Opción B</string>
+    <string name="option_c">Opción C</string>
+    <string name="option_d">Opción D</string>
+    <string name="select_correct_option">Selecciona la correcta:</string>
+    <string name="op_format">Op. %1$s</string>
+    <string name="discard">Descartar</string>
+    <string name="saving">Guardando...</string>
+    <string name="save">Guardar</string>
+
+    <!-- Admin: Gestión Libros / Biblioteca -->
+    <string name="new_book">Nuevo Libro</string>
+    <string name="edit_book">Editar Libro</string>
+    <string name="cover">Portada</string>
+    <string name="error_upload_cloudinary">Error al subir a Cloudinary</string>
+    <string name="title">Título</string>
+    <string name="author">Autor</string>
+    <string name="isbn">ISBN</string>
+    <string name="category_id">Categoría ID</string>
+    <string name="category_label">Categoría</string>
+    <string name="short_description">Descripción Corta</string>
+    <string name="long_description">Descripción Larga</string>
+    <string name="save_book">Guardar Libro</string>
+    <string name="update_book">Actualizar Libro</string>
+    <string name="eliminar_libro">Eliminar Libro</string>
+    <string name="confirmar_eliminar_libro">¿Estás seguro de que quieres eliminar este libro? Esta acción no se puede deshacer.</string>
+    <string name="delete_book_title">Eliminar Libro</string>
+    <string name="delete_book_desc">¿Estás seguro de que quieres eliminar este libro? Esta acción no se puede deshacer.</string>
+
+    <!-- Admin: Gestión Roles -->
+    <string name="asignar_rol_usuario">Asignar Rol de Usuario</string>
+    <string name="seleccionar_rol_usuario">Seleccionar Rol de Usuario: %1$s</string>
+    <string name="asignar_biblioteca_asociada">Asignar Biblioteca Asociada:</string>
+    <string name="selecciona_una_sede">Selecciona una sede</string>
+    <string name="rol_actualizado">¡Rol actualizado!</string>
+
+    <!-- Admin: Añadir/Editar Libro (Detallado) -->
+    <string name="anadir_nuevo_libro">Añadir Nuevo Libro</string>
+    <string name="informacion_basica">Información Básica</string>
+    <string name="titulo_asterisco">Título *</string>
+    <string name="autor_asterisco">Autor *</string>
+    <string name="campo_obligatorio">Campo obligatorio</string>
+    <string name="descripcion">Descripción</string>
+    <string name="detalles_adicionales">Detalles Adicionales</string>
+    <string name="url_de_imagen">URL de Imagen</string>
+    <string name="id_categoria">ID Categoría</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="campos_obligatorios">* Campos obligatorios</string>
+
+    <!-- Admin: Gestión Bibliotecas -->
+    <string name="library_updated">Biblioteca actualizada</string>
+    <string name="edit_library">Editar Biblioteca</string>
+    <string name="search_library">Buscar Biblioteca</string>
+    <string name="address">Dirección</string>
+    <string name="lat">Lat</string>
+    <string name="long_abbr">Long</string>
+    <string name="accessibility">Accesibilidad</string>
+    <string name="new_library">Nueva Biblioteca</string>
+    <string name="library_photo">Foto de la biblioteca</string>
+    <string name="select_photo">Seleccionar foto</string>
+    <string name="save_library">Guardar Biblioteca</string>
+
+    <!-- Panel Bibliotecario / Librarian -->
+    <string name="librarian_panel">Panel de Bibliotecario</string>
+    <string name="quick_actions">Acciones Rápidas</string>
+    <string name="inventory">Inventario</string>
+    <string name="categories">Categorías</string>
+    <string name="create_new_book">Crear Nuevo Libro</string>
+    <string name="search_title_author_isbn">Buscar... título, autor o isbn</string> <!-- Unificado -->
+    <string name="clear">Limpiar</string>
+    <string name="no_books_found_with">No se encontraron libros con \"%1$s\"</string>
+    <string name="cover_of">Portada de %1$s</string>
+    <string name="welcome_librarian">Bienvenido/a de nuevo, Bibliotecario</string>
+    <string name="manage_books_title">Gestionar Libros</string>
+    <string name="add_book_btn">Añadir Libro</string>
+    <string name="nuevo_libro_accion">Nuevo Libro</string>
+    <string name="no_books_found_short">No se encontraron libros</string>
+    <string name="reservas">Reservas</string>
+
+    <!-- About -->
+    <string name="about_title">Acerca de BiblioNET</string>
+    <string name="version_text">Versión 1.0.0 (2026)</string>
+    <string name="mission_title">Nuestra Misión</string>
+    <string name="mission_desc">BiblioNET es una plataforma diseñada para conectar a lectores con su biblioteca local, facilitando el préstamo de libros y fomentando la cultura en nuestra comunidad.</string>
+    <string name="dev_title">Desarrollado por</string>
+    <string name="dev_team">Equipo de Desarrollo BiblioNET - IES Copernic.\n\nZakaria El Mtiouy\nDaniel Adanegbe Molina\nBaye Mory Dia\nMarcel·lí Farré Gragero</string>
+    <string name="footer_text">© 2026 BiblioNET Project.\nTodos los derechos reservados.</string>
+
+    <!-- Detalles del Libro -->
+    <string name="details_title">Detalles del Libro</string>
+    <string name="calif">CALIF.</string>
+    <string name="category">CATEGORÍA</string>
+    <string name="language">IDIOMA</string>
+    <string name="description">Descripción</string>
+    <string name="no_description">No hay descripción disponible.</string>
+    <string name="available_reserve">Disponible para reserva</string>
+    <string name="not_available">No disponible en ninguna biblioteca</string>
+    <string name="not_available_abbr">N/D</string>
+    <string name="write_opinion">Escribe tu opinión</string>
+    <string name="edit_review">Editando tu reseña</string>
+    <string name="opinion_placeholder">¿Qué te pareció?</string>
+    <string name="publish">Publicar</string>
+    <string name="update">Actualizar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="user_reviews">Reseñas de Usuarios (%1$d)</string>
+    <string name="me">Yo</string>
+    <string name="no_reviews">Aún no hay reseñas.</string>
+    <string name="reserve_now">Reservar Ahora</string>
+    <string name="hidden_content">Contenido oculto por moderación.</string>
+    <string name="censor_comment">Censurar comentario</string>
+    <string name="uncensor_comment">Quitar censura</string>
+
+    <!-- Reservas -->
+    <string name="request_reserve_title">Solicitar Reserva</string>
+    <string name="accept">Aceptar</string>
+    <string name="reject">Rechazar</string>
+    <string name="sedes_count">%1$d sedes</string>
+    <string name="where_collect">¿Dónde recogerás el libro?</string>
+    <string name="unknown_library">Sede desconocida</string>
+    <string name="no_stock_available">Lo sentimos, no hay stock disponible.</string>
+    <string name="available_copies">Copias libres: %1$d</string>
+    <string name="estimated_pickup_date">Fecha estimada de recogida</string>
+    <string name="confirm_reserve">Confirmar Reserva</string>
+    <string name="gestion_reservas">Gestión de Reservas</string>
+    <string name="no_pending_reservations">No hay reservas pendientes</string>
+    <string name="id_label">Título: %1$s</string>
+    <string name="usuario_nombre">Usuario: %1$s</string>
+    <string name="isbn_label">ISBN: %1$s</string>
+    <string name="return_date_label">Devolución:</string>
+    <string name="return_book_btn">Devolver Libro</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="rechazar">Rechazar</string>
+    <string name="devolver_libro">Devolver Libro</string>
+    <string name="no_reservas_pendientes">No hay reservas pendientes</string>
+
+    <!-- Ítems / Inventario General -->
+    <string name="items_count">Items (%1$d)</string>
+    <string name="add">Añadir</string>
+    <string name="add_btn">Añadir</string>
+    <string name="loading">Cargando...</string>
+    <string name="location_format">Ubicación: %1$s</string>
+    <string name="location_label">Ubicación: %1$s</string>
+    <string name="status_out_of_stock">Agotado</string>
+    <string name="agotado">Agotado</string>
+    <string name="unassigned_location">Sede no asignada</string>
+    <string name="no_branch_name">Sede sin nombre</string>
+
+    <!-- Categorías -->
+    <string name="gestion_categorias">Gestión de Categorías</string>
+    <string name="add_new_category">+ Añadir Nueva Categoría</string>
+    <string name="categorias_label">Categorías</string>
+    <string name="no_description_short">Sin desc.</string>
+    <string name="add_category_title">Añadir Categoría</string>
+    <string name="edit_category_title">Editar Categoría</string>
+    <string name="category_name_label">Nombre de la categoría</string>
+    <string name="category_desc_label">Descripción corta</string>
+    <string name="favorite">Favorito</string>
+    <string name="no_category_found">Sin categoría</string>
+    <string name="manage_categories_title">Gestionar Categorías</string>
+    <string name="manage_categories_subtitle">Organiza tus libros por categorías</string>
+    <string name="add_category_btn">Añadir Categoría</string>
+    <string name="add_new_category_title">Añadir Nueva Categoría</string>
+    <string name="category_info_title">Information de la Categoría</string>
+    <string name="name_asterisk">Nombre *</string>
+    <string name="image_id_label">ID Imagen</string>
+
+    <!-- Errores / Mensajes Varios -->
+    <string name="error_prefix">Error: %1$s</string>
+    <string name="error_delete_prefix">Error al eliminar: %1$s</string>
+    <string name="error_upload_cover">Error al subir la portada</string>
+    <string name="error_required_fields">Título, Autor y Categoría son obligatorios</string>
+    <string name="error_admin_required">No tienes permisos de administrador.</string>
+    <string name="error_book_exists">EL LIBRO YA EXISTE EN ESTA BIBLIOTECA</string>
+    <string name="error_campos_vacios">Por favor, rellena todos los campos</string>
+    <string name="error_uid">Error interno al obtener UID</string>
+    <string name="error_guardar_datos">Error al guardar datos: %1$s</string>
+    <string name="error_registro">Error al registrar: %1$s</string>
+    <string name="error_email_invalido">El formato del correo electrónico no es válido</string>
+    <string name="error_telefono_invalido">El número de teléfono debe tener al menos 9 dígitos</string>
+    <string name="error_pass_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="direccion_copiada">Dirección copiada al portapapeles</string>
+    <string name="error_libro_con_inventario">No se puede eliminar el libro: tiene inventario asociado en una o más bibliotecas.</string>
+
+    <!-- Inventario (Gestión Detallada) -->
+    <string name="add_inventory_title">Añadir al Inventario</string>
+    <string name="work_location">Sede de trabajo:</string>
+    <string name="select_book_asterisk">Seleccionar Libro *</string>
+    <string name="search_catalog">Buscar en Catálogo</string>
+    <string name="stock_details">Detalles de Stock</string>
+    <string name="number_of_copies_asterisk">Número de copias *</string>
+    <string name="physical_location">Ubicación física</string>
+    <string name="location_placeholder">Ej: Pasillo A - Estante 4</string>
+    <string name="select_book_dialog_title">Seleccionar Libro</string>
+    <string name="inventory_management">Gestión de Inventario</string>
+    <string name="loading_title">Cargando título...</string>
+    <string name="not_available_short">No disponible</string>
+    <string name="in_catalog">EN CATÁLOGO</string>
+    <string name="out_of_stock_caps">FUERA DE STOCK</string>
+    <string name="total_copies">Total Copias</string>
+    <string name="available_copies_label">Disponibles</string>
+    <string name="aisle_shelf">Pasillo y Estantería</string>
+    <string name="location_undefined">Ubicación no definida</string>
+    <string name="confirm_deletion">¿Confirmar eliminación?</string>
+    <string name="deletion_blocked">Borrado bloqueado</string>
+    <string name="delete_item_confirm_desc">¿Estás seguro de eliminar este libro? Esta acción es permanente.</string>
+    <string name="delete_item_blocked_desc">No se puede eliminar el ítem: hay copias prestadas. Debes recibir todas las devoluciones primero.</string>
+    <string name="delete_record">Eliminar Registro</string>
+    <string name="understood">Entendido</string>
+    <string name="edit_inventory">Editar Inventario</string>
+    <string name="save_changes_btn">Guardar Cambios</string>
+    <string name="select_cover_photo">Seleccionar portada</string>
+
+    <!-- General / Otras listas -->
+    <string name="all_categories_title">Todas las Categorías</string>
+    <string name="search_category_placeholder">Buscar categoría...</string>
+    <string name="no_categories_found">No se encontraron categorías</string>
+    <string name="view_more">Ver más</string>
+    <string name="library_catalog">Catálogo de la Biblioteca</string>
+    <string name="categoria_label">Categoría</string>
+    <string name="fecha_devolucion_label">Devolución: %1$s</string>
+
+    <string name="buscar_usuario">Buscar usuario...</string>
+    <string name="buscar_biblioteca">Buscar biblioteca...</string>
+    <string name="ocultar">Ocultar</string>
+    <string name="reiniciar_todos">Reiniciar a Todos</string>
+    <string name="practica_completada">¡Práctica Completada!</string>
+    <string name="quiz_reiniciado_exito">¡Quiz reiniciado para todos los usuarios!</string>
+
+    <string name="buscar_pregunta">Buscar pregunta...</string>
+    <string name="admin_updated_quiz">¡El administrador ha actualizado el Quiz!</string>
+    <string name="library_saved_success">¡Biblioteca guardada con éxito!</string>
+
+    <string name="nuevo_dia_quiz">¡El Quiz Diario se ha reiniciado! Juega ahora para mantener tu racha.</string>
+    <string name="confirm_reset_quiz_title">¿Reiniciar Quiz a todos?</string>
+    <string name="confirm_reset_quiz_desc">Esto permitirá a todos los usuarios volver a jugar el quiz hoy. ¿Estás seguro?</string>
+
+    <string name="recordarme">Recordarme</string>
+    <string name="editar_biblioteca">Editar Biblioteca</string>
+    <string name="nombre_biblioteca">Nombre</string>
+    <string name="direccion_biblioteca">Dirección</string>
+    <string name="accesible_silla_ruedas">Accesible para silla de ruedas</string>
+    <string name="horarios_apertura">Horarios de Apertura</string>
+    <string name="cerrado">Cerrado</string>
+    <string name="abre_hora">Abre:</string>
+    <string name="cierra_hora">Cierra:</string>
+    <string name="editando_usuario">Editando usuario:</string>
+    <string name="dia_lunes">Lunes</string>
+    <string name="dia_martes">Martes</string>
+    <string name="dia_miercoles">Miércoles</string>
+    <string name="dia_jueves">Jueves</string>
+    <string name="dia_viernes">Viernes</string>
+    <string name="dia_sabado">Sábado</string>
+    <string name="dia_domingo">Domingo</string>
+    <string name="dia_festivos">Festivos</string>
+    <string name="horario_no_disponible">Horario no disponible</string>
+    <string name="abierto_hasta">Abierto (hasta las %s)</string>
+    <string name="cerrado_abre_hoy">Cerrado (Abre hoy a las %s)</string>
+    <string name="cerrado_abre_manana">Cerrado (Abre mañana a las %s)</string>
+    <string name="cerrado_abre_dia">Cerrado (Abre el %1$s a las %2$s)</string>
+    <string name="cerrado_temporalmente">Cerrado temporalmente</string>
+
+    <string name="afectar_rachas">Afectar rachas (+1 racha)</string>
+    <string name="afectar_rachas_si">Sí: Los usuarios ganarán +1 de racha, pero DEBERÁN jugar de nuevo hoy o la perderán mañana.</string>
+    <string name="afectar_rachas_no">No: Solo ganarán puntos. Su racha de hoy se mantiene intacta aunque no jueguen de nuevo.</string>
+
+    <string name="confirm_delete_history">Este libro tiene historial de reservas. Si lo eliminas, se perderán estos datos históricos. ¿Deseas continuar?</string>
+    <string name="error_inventario_asociado">No se puede eliminar: el libro aún tiene stock físico.</string>
+    <string name="error_prestamos_asociados">No se puede eliminar: hay préstamos activos.</string>
+    <string name="error_delete_libro">Error al eliminar el libro</string>
+    <string name="atencion">Atención</string>
+    <string name="entendido">Entendido</string>
+
+
+
+</resources>

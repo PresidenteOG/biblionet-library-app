@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BiblioNET" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#1A237E</item>
+        <item name="android:colorPrimary">#1A237E</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.BiblioNET">
+        <item name="android:windowBackground">@drawable/ic_launcher_background</item>
+    </style>
+</resources>

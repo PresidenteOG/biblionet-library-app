@@ -1,0 +1,440 @@
+<resources>
+    <!-- Global / App Name -->
+    <string name="app_name">BiblioXARXA</string>
+
+    <!-- Perfil / Profile -->
+    <string name="perfil">Perfil</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="configuracion">Configuració</string>
+    <string name="nivel_lector">Nivell Lector</string>
+    <string name="miembro_desde">Membre des de %1$s</string>
+    <string name="cuenta_bloqueada">Compte bloquejat fins: %1$s</string>
+    <string name="puntos">PUNTS</string>
+    <string name="libros">LLIBRES</string>
+    <string name="racha">RATXA</string>
+    <string name="cerrar_sesion">Tancar Sessió</string>
+    <string name="panel_administracion">Panell d\'Administració</string>
+    <string name="panel_biblioteca">Panell de Biblioteca</string>
+    <string name="about_biblionet">Quant a BiblioXARXA</string>
+    <string name="idioma">Idioma</string>
+    <string name="seleccionar_idioma">Seleccionar Idioma</string>
+    <string name="cancelar">Cancel·lar</string>
+    <string name="cerrar">Tancar</string>
+
+    <!-- Clasificación / Leaderboard -->
+    <string name="clasificacion">Classificació</string>
+    <string name="semanal">Setmanal</string>
+    <string name="mensual">Mensual</string>
+    <string name="anual">Anual</string>
+    <string name="total">Total</string>
+    <string name="nadie_puntos">Ningú ha guanyat punts aquesta temporada encara.</string>
+    <string name="tu">(Tu)</string>
+
+    <!-- Quiz Diario -->
+    <string name="quiz_diario">Quiz Diari</string>
+    <string name="quiz_diario_practica">Quiz Diari (Pràctica)</string>
+    <string name="modo_practica">Mode Pràctica (Sense punts)</string>
+    <string name="juega_gana_puntos">Juga i guanya punts!</string>
+    <string name="aun_no_preguntas">Encara no hi ha preguntes</string>
+    <string name="vuelve_mas_tarde">L\'administrador encara no ha creat el quiz. Torna més tard!</string>
+    <string name="volver_perfil">Tornar al perfil</string>
+    <string name="quiz_completado">Quiz Completat!</string>
+    <string name="puntos_anadidos">Felicitats! Punts afegits al teu perfil.</string>
+    <string name="practica_completado">Mode Pràctica completat.</string>
+    <string name="puntuacion_obtenida">PUNTUACIÓ OBTENIDA</string>
+    <string name="pts">pts</string>
+    <string name="puntuacion_perfecta">Puntuació Perfecta!</string>
+    <string name="volver_a_jugar">Tornar a jugar</string>
+
+    <!-- Navegación / Home -->
+    <string name="nav_inicio">Inici</string>
+    <string name="nav_mapa">Mapa</string>
+    <string name="nav_libros">Llibres</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="hola_usuario">Hola, %1$s</string>
+    <string name="no_libros_encontrados">No s\'han trobat llibres</string>
+    <string name="buscar_titulo_autor">Cercar títol o autor...</string>
+    <string name="filtros">Filtres</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="buscar_categoria">Cercar categoria...</string>
+    <string name="seleccionar_categoria">Seleccionar Categoria</string>
+    <string name="todas">Totes</string>
+    <string name="aplicar_filtros">Aplicar Filtres</string> <!-- Unificado -->
+    <string name="ordenar_por_valoracion">Ordenar per valoració</string>
+    <string name="ordenar_por_fecha">Ordenar per data</string>
+    <string name="ninguno">Cap</string>
+    <string name="filtrar_por_estrellas">Filtrar per estrelles</string>
+    <string name="estrellas_o_mas">%1$d o més</string>
+    <string name="mas_recientes">Més recents</string>
+    <string name="mas_antiguos">Més antics</string>
+    <string name="mejor_valoracion">Millor valoració</string>
+    <string name="peor_valoracion">Pitjor valoració</string>
+
+    <!-- Panel Admin -->
+    <string name="panel_admin">Panell d\'Admin</string>
+    <string name="gestion_preguntas">Gestió de Preguntes</string>
+    <string name="desc_gestion_preguntas">Afegeix, edita o elimina les preguntes que els usuaris respondran al Quiz Diari.</string>
+    <string name="entrar_gestor_quiz">Entrar al Gestor del Quiz</string>
+    <string name="usuarios">Usuaris</string>
+    <string name="bibliotecas">Biblioteques</string>
+    <string name="gestion_roles">Gestió de Rols</string>
+    <string name="gestion_bibliotecas">Gestió de Biblioteques</string>
+    <string name="ver_todo">Veure Tot</string>
+    <string name="nombre_col">NOM</string>
+    <string name="info_col">INFO</string>
+    <string name="acc_col">ACC</string>
+    <string name="sin_tel">Sense tel.</string>
+    <string name="add_new_library">+ Afegir Biblioteca</string>
+    <string name="seed_db">Omplir BD amb Llibres (20)</string>
+
+    <!-- Mapa / Buscar -->
+    <string name="buscar_calle_ciudad">Carrer, ciutat o biblioteca...</string>
+    <string name="filtro_distancia_km">Filtre de distància (Km):</string>
+    <string name="ej_20_vacio">Ex: 20 (Buit = Mostrar Totes)</string>
+    <string name="obteniendo_gps">Obtenint ubicació GPS...</string>
+    <string name="ubicacion_buscada">Ubicació cercada</string>
+    <string name="no_libros_disponibles">No hi ha llibres disponibles.</string>
+    <string name="catalogo_destacado">Catàleg Destacat</string>
+    <string name="autor_formato">Autor: %1$s</string>
+    <string name="disponible">Disponible</string>
+    <string name="no_disponible">No disponible</string>
+
+    <!-- Login / Registro -->
+    <string name="bienvenido_nuevo">Benvingut de nou</string>
+    <string name="correo">Correu</string>
+    <string name="contrasena">Contrasenya</string>
+    <string name="olvidado_contrasena">Has oblidat la teva contrasenya?</string>
+    <string name="correo_recuperacion_exito">Correu de recuperació enviat amb èxit</string>
+    <string name="entrar">Entrar</string>
+    <string name="volver">Tornar</string>
+    <string name="iniciar_sesion">Iniciar Sessió</string>
+    <string name="registrarse">Registrar-se</string>
+    <string name="tu_biblioteca_digital">La teva biblioteca digital intel·ligent</string>
+    <string name="derechos_reservados">©2026. BiblioXARXA. Tots els drets reservats.</string>
+    <string name="crear_cuenta">Crear Compte</string>
+    <string name="nombre_completo">Nom complet</string>
+    <string name="email">Email</string>
+
+    <!-- Mis Libros / Usuario -->
+    <string name="mis_libros">Els Meus Llibres</string>
+    <string name="atras">Enrere</string>
+    <string name="no_libros_prestados">No tens llibres prestats</string>
+    <string name="personal_library">Biblioteca Personal</string>
+    <string name="manage_books">Gestiona els teus llibres, %1$s</string>
+    <string name="filter_library">Filtrar la meva biblioteca...</string>
+    <string name="real_time_active">Cerca en temps real activa</string>
+    <string name="manual_mode">Mode manual: prem la fletxa per filtrar</string>
+    <string name="tab_reservations">Reserves</string>
+    <string name="tab_favorites">Favorits</string>
+    <string name="tab_history">Històric</string>
+    <string name="empty_reservations">No tens reserves pendents</string>
+    <string name="empty_favorites">La teva llista de favorits està buida</string>
+    <string name="empty_history">Encara no has llegit cap llibre</string>
+    <string name="status_overdue">retardat</string>
+    <string name="status_reserved">reservat</string>
+    <string name="status_pending">pendent</string>
+    <string name="status_active">actiu</string>
+    <string name="status_returned">retornat</string>
+
+    <!-- Perfil (Edición y errores) -->
+    <string name="error_subiendo_imagen">Error pujant imatge</string>
+    <string name="permiso_fotos_necesario">Es necessita permís per accedir a fotos</string>
+    <string name="foto_perfil">Foto de perfil</string>
+    <string name="cambiar_foto">Canviar foto</string>
+    <string name="nombre">Nom</string>
+    <string name="telefono">Telèfon</string>
+    <string name="puntos_totales">Punts Totals</string>
+    <string name="guardar_cambios">Guardar Canvis</string>
+
+    <!-- Admin: Gestión Quiz -->
+    <string name="reset_quiz_title">Reiniciar Quiz Diari</string>
+    <string name="reset_quiz_desc">Estàs segur? En reiniciar, el sistema seleccionarà 5 preguntes a l\'atzar i et permetrà jugar de nou com si fos un nou dia per guanyar punts.</string>
+    <string name="quiz_restarted_msg">Quiz reiniciat! Torna al Perfil per jugar.</string>
+    <string name="reset_now">Reiniciar Ara</string>
+    <string name="delete_question_title">Eliminar Pregunta</string>
+    <string name="delete_question_desc">Estàs segur que vols eliminar aquesta pregunta del Quiz? Aquesta acció no es pot desfer.</string>
+    <string name="delete">Eliminar</string>
+    <string name="manage_daily_quiz">Gestionar Quiz Diari</string>
+    <string name="reset_quiz_icon_desc">Reiniciar Quiz</string>
+    <string name="add_question">Afegir Pregunta</string>
+    <string name="no_questions_admin">No hi ha preguntes. Afegeix-ne algunes per al Quiz!</string>
+    <string name="options_correct_format">Opcions: %1$d | Correcta: Opció %2$s</string>
+    <string name="edit">Editar</string>
+    <string name="new_question">Nova Pregunta</string>
+    <string name="edit_question">Editar Pregunta</string>
+    <string name="question_label">Pregunta</string>
+    <string name="options_fill_all">Opcions (Omple les 4)</string>
+    <string name="option_a">Opció A</string>
+    <string name="option_b">Opció B</string>
+    <string name="option_c">Opció C</string>
+    <string name="option_d">Opció D</string>
+    <string name="select_correct_option">Selecciona la correcta:</string>
+    <string name="op_format">Op. %1$s</string>
+    <string name="discard">Descartar</string>
+    <string name="saving">Desant...</string>
+    <string name="save">Guardar</string>
+
+    <!-- Admin: Gestión Libros / Biblioteca -->
+    <string name="new_book">Nou Llibre</string>
+    <string name="edit_book">Editar Llibre</string>
+    <string name="cover">Portada</string>
+    <string name="error_upload_cloudinary">Error en pujar a Cloudinary</string>
+    <string name="title">Títol</string>
+    <string name="author">Autor</string>
+    <string name="isbn">ISBN</string>
+    <string name="category_id">Categoria ID</string>
+    <string name="category_label">Categoria</string>
+    <string name="short_description">Descripció Curta</string>
+    <string name="long_description">Descripció Llarga</string>
+    <string name="save_book">Guardar Llibre</string>
+    <string name="update_book">Actualitzar Llibre</string>
+    <string name="eliminar_libro">Eliminar Llibre</string>
+    <string name="confirmar_eliminar_libro">Estàs segur que vols eliminar aquest llibre? Aquesta acció no es pot desfer.</string>
+    <string name="delete_book_title">Eliminar Llibre</string>
+    <string name="delete_book_desc">Estàs segur que vols eliminar aquest llibre? Aquesta acció no es pot desfer.</string>
+
+    <!-- Admin: Gestión Roles -->
+    <string name="asignar_rol_usuario">Assignar Rol d\'Usuari</string>
+    <string name="buscar_usuario">Cercar Usuari</string>
+    <string name="seleccionar_rol_usuario">Seleccionar Rol d\'Usuari: %1$s</string>
+    <string name="asignar_biblioteca_asociada">Assignar Biblioteca Associada:</string>
+    <string name="selecciona_una_sede">Selecciona una seu</string>
+    <string name="rol_actualizado">Rol actualitzat!</string>
+
+    <!-- Admin: Añadir/Editar Libro (Detallado) -->
+    <string name="anadir_nuevo_libro">Afegir Nou Llibre</string>
+    <string name="informacion_basica">Informació Bàsica</string>
+    <string name="titulo_asterisco">Títol *</string>
+    <string name="autor_asterisco">Autor *</string>
+    <string name="campo_obligatorio">Camp obligatori</string>
+    <string name="descripcion">Descripció</string>
+    <string name="detalles_adicionales">Detalls Addicionals</string>
+    <string name="url_de_imagen">URL d\'Imatge</string>
+    <string name="id_categoria">ID Categoria</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="campos_obligatorios">* Camps obligatoris</string>
+
+    <!-- Admin: Gestión Bibliotecas -->
+    <string name="library_updated">Biblioteca actualitzada</string>
+    <string name="edit_library">Editar Biblioteca</string>
+    <string name="search_library">Cercar Biblioteca</string>
+    <string name="address">Adreça</string>
+    <string name="lat">Lat</string>
+    <string name="long_abbr">Long</string>
+    <string name="accessibility">Accessibilitat</string>
+    <string name="new_library">Nova Biblioteca</string>
+    <string name="library_photo">Foto de la biblioteca</string>
+    <string name="select_photo">Seleccionar foto</string>
+    <string name="save_library">Guardar Biblioteca</string>
+
+    <!-- Panel Bibliotecario / Librarian -->
+    <string name="librarian_panel">Panell de Bibliotecari</string>
+    <string name="quick_actions">Accions Ràpides</string>
+    <string name="inventory">Inventari</string>
+    <string name="categories">Categories</string>
+    <string name="create_new_book">Crear Nou Llibre</string>
+    <string name="search_title_author_isbn">Cercar... títol, autor o isbn</string> <!-- Unificado -->
+    <string name="clear">Netejar</string>
+    <string name="no_books_found_with">No s\'han trobat llibres amb \"%1$s\"</string>
+    <string name="cover_of">Portada de %1$s</string>
+    <string name="welcome_librarian">Benvingut/da de nou, Bibliotecario</string>
+    <string name="manage_books_title">Gestionar Llibres</string>
+    <string name="add_book_btn">Afegir Llibre</string>
+    <string name="nuevo_libro_accion">Nou Llibre</string>
+    <string name="no_books_found_short">No s\'han trobat llibres</string>
+    <string name="reservas">Reserves</string>
+
+    <!-- About -->
+    <string name="about_title">Quant a BiblioXARXA</string>
+    <string name="version_text">Versió 1.0.0 (2026)</string>
+    <string name="mission_title">La Nostra Missió</string>
+    <string name="mission_desc">BiblioXARXA és una plataforma dissenyada per connectar lectors amb la seva biblioteca local, facilitant el préstec de llibres i fomentant la cultura a la nostra comunitat.</string>
+    <string name="dev_title">Desenvolupat per</string>
+    <string name="dev_team">Equip de Desenvolupament BiblioXARXA - IES Copèrnic.\n\nZakaria El Mtiouy\nDaniel Adanegbe Molina\nBaye Mory Dia\nMarcel·lí Farré Gragero</string>
+    <string name="footer_text">© 2026 BiblioXARXA Project.\nTots els drets reservats.</string>
+
+    <!-- Detalles del Libro -->
+    <string name="details_title">Detalls del Llibre</string>
+    <string name="calif">CALIF.</string>
+    <string name="category">CATEGORIA</string>
+    <string name="language">IDIOMA</string>
+    <string name="description">Descripció</string>
+    <string name="no_description">No hi ha descripció disponible.</string>
+    <string name="available_reserve">Disponible per reserva</string>
+    <string name="not_available">No disponible a cap biblioteca</string>
+    <string name="not_available_abbr">N/D</string>
+    <string name="write_opinion">Escriu la teva opinió</string>
+    <string name="edit_review">Editant la teva ressenya</string>
+    <string name="opinion_placeholder">Què et va semblar?</string>
+    <string name="publish">Publicar</string>
+    <string name="update">Actualitzar</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="user_reviews">Ressenyes d\'Usuaris (%1$d)</string>
+    <string name="me">Jo</string>
+    <string name="no_reviews">Encara no hi ha ressenyes.</string>
+    <string name="reserve_now">Reservar Ara</string>
+    <string name="hidden_content">Contingut ocult per moderació.</string>
+    <string name="censor_comment">Censurar comentari</string>
+    <string name="uncensor_comment">Treure censura</string>
+
+    <!-- Reservas -->
+    <string name="request_reserve_title">Sol·licitar Reserva</string>
+    <string name="accept">Acceptar</string>
+    <string name="reject">Rebutjar</string>
+    <string name="sedes_count">%1$d seus</string>
+    <string name="where_collect">On recolliràs el llibre?</string>
+    <string name="unknown_library">Seu desconeguda</string>
+    <string name="no_stock_available">Ho sentim, no hi ha stock disponible.</string>
+    <string name="available_copies">Còpies lliures: %1$d</string>
+    <string name="estimated_pickup_date">Data estimada de recollida</string>
+    <string name="confirm_reserve">Confirmar Reserva</string>
+    <string name="gestion_reservas">Gestió de Reserves</string>
+    <string name="no_pending_reservations">No hi ha reserves pendents</string>
+    <string name="id_label">Títol: %1$s</string>
+    <string name="isbn_label">ISBN: %1$s</string>
+    <string name="usuario_nombre">Usuari: %1$s</string>
+    <string name="return_date_label">Devolución:</string>
+    <string name="return_book_btn">Retornar Llibre</string>
+    <string name="aceptar">Acceptar</string>
+    <string name="rechazar">Rebutjar</string>
+    <string name="devolver_libro">Retornar Llibre</string>
+    <string name="no_reservas_pendientes">No hi ha reserves pendents</string>
+
+    <!-- Ítems / Inventario General -->
+    <string name="items_count">Items (%1$d)</string>
+    <string name="add">Afegir</string>
+    <string name="add_btn">Afegir</string>
+    <string name="loading">Carregant...</string>
+    <string name="location_format">Ubicació: %1$s</string>
+    <string name="location_label">Ubicació: %1$s</string>
+    <string name="status_out_of_stock">Esgotat</string>
+    <string name="agotado">Esgotat</string>
+    <string name="unassigned_location">Seu no assignada</string>
+    <string name="no_branch_name">Seu sense nom</string>
+
+    <!-- Categorías -->
+    <string name="gestion_categorias">Gestió de Categories</string>
+    <string name="add_new_category">+ Afegir Nova Categoria</string>
+    <string name="categorias_label">Categories</string>
+    <string name="no_description_short">Sense desc.</string>
+    <string name="add_category_title">Afegir Categoria</string>
+    <string name="edit_category_title">Editar Categoria</string>
+    <string name="category_name_label">Nom de la categoria</string>
+    <string name="category_desc_label">Descripció curta</string>
+    <string name="favorite">Favorito</string>
+    <string name="no_category_found">Sense categoria</string>
+    <string name="manage_categories_title">Gestionar Categories</string>
+    <string name="manage_categories_subtitle">Organitza els teus llibres per categories</string>
+    <string name="add_category_btn">Afegir Categoria</string>
+    <string name="add_new_category_title">Afegir Nova Categoria</string>
+    <string name="category_info_title">Informació de la Categoria</string>
+    <string name="name_asterisk">Nom *</string>
+    <string name="image_id_label">ID Imatge</string>
+
+    <!-- Errores / Mensajes Varios -->
+    <string name="error_prefix">Error: %1$s</string>
+    <string name="error_delete_prefix">Error en eliminar: %1$s</string>
+    <string name="error_upload_cover">Error en pujar la portada</string>
+    <string name="error_required_fields">Títol, Autor i Categoria són obligatoris</string>
+    <string name="error_admin_required">No tens permisos d\'administrador.</string>
+    <string name="error_book_exists">EL LLIBRE JA EXISTEIX EN AQUESTA BIBLIOTECA</string>
+    <string name="error_campos_vacios">Si us plau, omple tots els camps</string>
+    <string name="error_uid">Error intern en obtenir UID</string>
+    <string name="error_guardar_datos">Error en guardar dades: %1$s</string>
+    <string name="error_registro">Error en registrar: %1$s</string>
+    <string name="error_email_invalido">El format del correu electrònic no és vàlid</string>
+    <string name="error_telefono_invalido">El número de telèfon ha de tenir almenys 9 dígits</string>
+    <string name="error_pass_corta">La contrasenya ha de tenir almenys 6 caràcters</string>
+    <string name="direccion_copiada">Adreça copiada al porta-retalls</string>
+    <string name="error_libro_con_inventario">No es pot eliminar el llibre: té inventari associat en una o més biblioteques.</string>
+
+    <!-- Inventario (Gestión Detallada) -->
+    <string name="add_inventory_title">Afegir a l\'Inventari</string>
+    <string name="work_location">Lloc de treball:</string>
+    <string name="select_book_asterisk">Seleccionar Llibre *</string>
+    <string name="search_catalog">Cercar al Catàleg</string>
+    <string name="stock_details">Detalls d\'Stock</string>
+    <string name="number_of_copies_asterisk">Nombre de còpies *</string>
+    <string name="physical_location">Ubicació física</string>
+    <string name="location_placeholder">Ex: Passadís A - Prestatge 4</string>
+    <string name="select_book_dialog_title">Seleccionar Llibre</string>
+    <string name="inventory_management">Gestió d\'Inventari</string>
+    <string name="loading_title">Carregant títol...</string>
+    <string name="not_available_short">No disponible</string>
+    <string name="in_catalog">EN CATÀLEG</string>
+    <string name="out_of_stock_caps">FORA D\'STOCK</string>
+    <string name="total_copies">Total Còpies</string>
+    <string name="available_copies_label">Disponibles</string>
+    <string name="aisle_shelf">Passadís i Prestatgeria</string>
+    <string name="location_undefined">Ubicació no definida</string>
+    <string name="confirm_deletion">Confirmar eliminació?</string>
+    <string name="deletion_blocked">Eliminació bloquejada</string>
+    <string name="delete_item_confirm_desc">Estàs segur d\'eliminar aquest llibre? Aquesta acció és permanent.</string>
+    <string name="delete_item_blocked_desc">No se puede eliminar el ítem: hay copias prestadas. Debes recibir todas las devoluciones primero.</string>
+    <string name="delete_record">Eliminar Registre</string>
+    <string name="understood">Entès</string>
+    <string name="edit_inventory">Editar Inventario</string>
+    <string name="save_changes_btn">Guardar Cambios</string>
+    <string name="select_cover_photo">Seleccionar portada</string>
+
+    <!-- General / Otras listas -->
+    <string name="all_categories_title">Totes les Categories</string>
+    <string name="search_category_placeholder">Cercar categoria...</string>
+    <string name="no_categories_found">No s\'han trobat categories</string>
+    <string name="view_more">Veure més</string>
+    <string name="library_catalog">Catàleg de la Biblioteca</string>
+    <string name="categoria_label">Categoria</string>
+    <string name="fecha_devolucion_label">Devolución: %1$s</string>
+
+    <string name="buscar_biblioteca">Cercar biblioteca...</string>
+    <string name="ocultar">Ocultar</string>
+    <string name="reiniciar_todos">Reiniciar a Tots</string>
+    <string name="practica_completada">Pràctica Completada!</string>
+    <string name="quiz_reiniciado_exito">Quiz reiniciado con éxito para todos los usuarios!</string>
+    <string name="buscar_pregunta">Cercar pregunta...</string>
+    <string name="admin_updated_quiz">L’administrador ha actualitzat el Quiz!</string>
+    <string name="library_saved_success">Biblioteca guardada con éxito!</string>
+    <string name="nuevo_dia_quiz">El Quiz Diari s\'ha reiniciado! Juega ahora para mantener tu racha.</string>
+    <string name="confirm_reset_quiz_title">Reiniciar Quiz a tothom?</string>
+    <string name="confirm_reset_quiz_desc">Esto permitirá a todos los usuarios volver a jugar el quiz hoy. ¿Estás seguro?</string>
+
+    <string name="recordarme">Recorda\'m</string>
+    <string name="editar_biblioteca">Editar Biblioteca</string>
+    <string name="nombre_biblioteca">Nom</string>
+    <string name="direccion_biblioteca">Adreça</string>
+    <string name="accesible_silla_ruedas">Accessible amb cadira de rodes</string>
+    <string name="horarios_apertura">Horaris d\'Obertura</string>
+    <string name="cerrado">Tancat</string>
+    <string name="abre_hora">Obre:</string>
+    <string name="cierra_hora">Tanca:</string>
+    <string name="editando_usuario">Editant usuari:</string>
+    <string name="dia_lunes">Dilluns</string>
+    <string name="dia_martes">Dimarts</string>
+    <string name="dia_miercoles">Dimecres</string>
+    <string name="dia_jueves">Dijous</string>
+    <string name="dia_viernes">Divendres</string>
+    <string name="dia_sabado">Dissabte</string>
+    <string name="dia_domingo">Diumenge</string>
+    <string name="dia_festivos">Festius</string>
+    <string name="horario_no_disponible">Horario no disponible</string>
+    <string name="abierto_hasta">Obert (fins a les %s)</string>
+    <string name="cerrado_abre_hoy">Tancat (Obre avui a les %s)</string>
+    <string name="cerrado_abre_manana">Tancat (Obre demà a les %s)</string>
+    <string name="cerrado_abre_dia">Tancat (Obre el %1$s a les %2$s)</string>
+    <string name="cerrado_temporalmente">Tancat temporalment</string>
+
+    <string name="afectar_rachas">Afectar ratxes (+1 ratxa)</string>
+    <string name="afectar_rachas_si">Sí: Los usuarios ganarán +1 de racha, pero DEBERÁN jugar de nuevo hoy o la perderán mañana.</string>
+    <string name="afectar_rachas_no">No: Solo ganarán puntos. Su racha de hoy se mantiene intacta aunque no jueguen de nuevo.</string>
+
+    <string name="confirm_delete_history">Aquest llibre té historial de reserves. Si l\'elimines, es perdran aquestes dades històriques. Vols continuar?</string>
+    <string name="error_inventario_asociado">No es pot eliminar: el llibre encara té estoc físic.</string>
+    <string name="error_prestamos_asociados">No es pot eliminar: hi ha préstecs actius.</string>
+    <string name="error_delete_libro">Error en eliminar el llibre</string>
+    <string name="atencion">Atenció</string>
+    <string name="entendido">Entès</string>
+
+
+
+</resources>
