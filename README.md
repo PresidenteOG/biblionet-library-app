@@ -83,6 +83,7 @@ A group project for the DAM course. Handles are GitLab, where the coursework was
 - **Zakaria Elmtiouy** (@elmitouy.zakaria) — lead
 - **Baye Mory** (@bmdia)
 - **Marceli** (GitLab handle unknown)
+- **Daniel Adanegbe** (@dadanegbe)
 
 ## License
 
