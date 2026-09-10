@@ -76,6 +76,14 @@ Kept as-is from the course submission, worth calling out:
   "remember me" box. Fine for a classroom demo, not for a real deployment.
 - The Cloudinary upload preset is unsigned, so anyone with the cloud name can upload to it.
 
+## Contributors
+
+A group project for the DAM course. Handles are GitLab, where the coursework was hosted.
+
+- **Zakaria Elmtiouy** (@elmitouy.zakaria) — lead
+- **Baye Mory** (@bmdia)
+- **Marceli** (GitLab handle unknown)
+
 ## License
 
 PolyForm Noncommercial 1.0.0 ([LICENSE](./LICENSE)). Personal, non-commercial use only.
