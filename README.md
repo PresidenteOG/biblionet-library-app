@@ -59,7 +59,7 @@ server. See [ARCHITECTURE.md](./ARCHITECTURE.md).
 
 Needs Android Studio (AGP 9, JDK 17+) and your own Firebase project.
 
-1. Create a Firebase project, add an Android app with package `cat.copernic.biblionet`, enable
+1. Create a Firebase project, add an Android app with package `com.biblionet`, enable
    **Authentication** (email/password), **Firestore** and **Storage**.
 2. Download its `google-services.json` into `app/`. A redacted
    [`app/google-services.json.example`](./app/google-services.json.example) shows the shape.

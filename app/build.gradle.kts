@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    namespace = "cat.copernic.biblionet"
+    namespace = "com.biblionet"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "cat.copernic.biblionet"
+        applicationId = "com.biblionet"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
