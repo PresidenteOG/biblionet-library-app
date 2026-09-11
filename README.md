@@ -28,6 +28,12 @@ Compose and Firebase.
 - **Localisation.** Spanish / Catalan / English, switched at runtime (the locale is re-applied
   in `MainActivity.attachBaseContext`).
 
+## Screenshots
+
+![Login screen](./docs/screenshots/app.png)
+:---:
+The Firebase-backed login screen — signing in needs the original course project's credentials
+
 ## Architecture
 
 MVVM, one package per domain:
