@@ -70,11 +70,11 @@ reliable path.
 
 ## Known issues
 
-Kept as-is from the course submission, worth calling out:
+Kept mostly as-is from the course submission, worth calling out:
 
-- `LoginScreen.kt` caches the last password in `SharedPreferences` in plain text for the
-  "remember me" box. Fine for a classroom demo, not for a real deployment.
 - The Cloudinary upload preset is unsigned, so anyone with the cloud name can upload to it.
+- `LoginScreen.kt` used to cache the password in `SharedPreferences` for the "remember me"
+  box — fixed after the course: it now stores only the email.
 
 ## Contributors
 

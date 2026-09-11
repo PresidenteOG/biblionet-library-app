@@ -38,7 +38,8 @@ fun LoginScreen(
     val prefs = context.getSharedPreferences("login_prefs", Context.MODE_PRIVATE)
 
     var email by remember { mutableStateOf(prefs.getString("saved_email", "") ?: "") }
-    var password by remember { mutableStateOf(prefs.getString("saved_password", "") ?: "") }
+    // "Remember me" only stores the email — never the password.
+    var password by remember { mutableStateOf("") }
     var rememberMe by remember { mutableStateOf(prefs.getBoolean("remember_me", false)) }
 
     var loading by remember { mutableStateOf(false) }
@@ -162,7 +163,6 @@ fun LoginScreen(
                             if (rememberMe) {
                                 prefs.edit()
                                     .putString("saved_email", email)
-                                    .putString("saved_password", password)
                                     .putBoolean("remember_me", true)
                                     .apply()
                             } else {
