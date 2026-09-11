@@ -1,3 +1,5 @@
+![biblionet-library-app](./docs/banner.png)
+
 # BiblioNET
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.2-7F52FF?style=flat&logo=kotlin&logoColor=white)

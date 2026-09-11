@@ -26,6 +26,8 @@ flowchart TB
     repos --> cloud
 ```
 
+![biblionet-library-app architecture: Compose screens collect state from ViewModels, which call repositories, which are the only layer that touches Firebase Auth, Firestore, Storage and Crashlytics, plus Cloudinary for profile photos](./docs/architecture.png)
+
 ## Layers
 
 | Layer | Package | Responsibility |
