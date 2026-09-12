@@ -30,6 +30,10 @@ Compose and Firebase.
 - **Localisation.** Spanish / Catalan / English, switched at runtime (the locale is re-applied
   in `MainActivity.attachBaseContext`).
 
+## Install
+
+Pre-built debug and unsigned release APKs are attached to the [releases](https://github.com/PresidenteOG/biblionet-library-app/releases) page (`minSdk` 24).
+
 ## Screenshots
 
 Running against the local Firebase emulator (see "Or run against the local emulator" below)
@@ -100,7 +104,7 @@ and preset for your own if you want profile-photo upload to work.
 
 ## Install it
 
-A pre-built APK is attached to the [latest release](../../releases/latest) (`minSdk` 24). It
+A pre-built APK is attached to the [releases](https://github.com/PresidenteOG/biblionet-library-app/releases) page (`minSdk` 24). It
 points at the original course Firebase project, which may be offline — building your own is the
 reliable path.
 
