@@ -60,6 +60,8 @@ ui/
 NavigationWrapper.kt   the single NavHost, routes gated by role
 ```
 
+![biblionet-library-app architecture: MVVM layers from Compose UI through repository to Firebase](docs/architecture.png)
+
 Firebase does the backend work: **Auth** for sign-in, **Firestore** for every collection,
 **Storage** + **Cloudinary** for images, **Crashlytics** for crash reports. There is no custom
 server. See [ARCHITECTURE.md](./ARCHITECTURE.md).
