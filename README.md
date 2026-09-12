@@ -32,9 +32,16 @@ Compose and Firebase.
 
 ## Screenshots
 
-![Login screen](./docs/screenshots/app.png)
+Running against the local Firebase emulator (see "Or run against the local emulator" below)
+— real seeded data, no course-project credentials needed.
+
+![Book catalogue](./docs/screenshots/catalogo.png)
 :---:
-The Firebase-backed login screen — signing in needs the original course project's credentials
+The home catalogue, logged in as the seeded demo reader
+
+![Loans](./docs/screenshots/reservas.png)
+:---:
+Personal library — an accepted loan and a pending reservation
 
 ## Architecture
 
