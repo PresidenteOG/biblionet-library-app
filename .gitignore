@@ -15,3 +15,9 @@ Thumbs.db
 # Firebase — each developer supplies their own from the Firebase console.
 # See app/google-services.json.example.
 app/google-services.json
+
+# Local Firebase Emulator Suite (see scripts/seed-emulator/)
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+scripts/seed-emulator/node_modules/

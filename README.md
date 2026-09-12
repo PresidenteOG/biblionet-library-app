@@ -67,6 +67,25 @@ Needs Android Studio (AGP 9, JDK 17+) and your own Firebase project.
    [`app/google-services.json.example`](./app/google-services.json.example) shows the shape.
 3. `./gradlew assembleDebug`, or open in Android Studio and run.
 
+### Or run against the local emulator, no Firebase project needed
+
+Debug builds default to the local Firebase Emulator Suite instead of a real project
+(`BiblioNetApp.EMULATOR_ENABLED`), so you can build and try the app with no Firebase
+console access at all:
+
+1. `npm install -g firebase-tools` (if you don't have it), then
+   `firebase emulators:start --only auth,firestore` from the repo root.
+2. `cd scripts/seed-emulator && npm install && node seed.js` to populate demo data —
+   3 accounts (`lector@biblionet.demo`, `bibliotecario@biblionet.demo`,
+   `admin@biblionet.demo`, all password `demo1234`), 2 branches, 3 books, inventory
+   and a couple of loans.
+3. `app/google-services.json` still needs to exist for the Google Services Gradle
+   plugin to run — any syntactically valid one works, since the emulator never
+   checks the API key. Copy `app/google-services.json.example` and fill in a
+   throwaway `project_id` (package name must stay `com.biblionet`).
+4. Run on an Android **emulator** (not a physical device — the wiring points at
+   `10.0.2.2`, the emulator's alias for the host machine).
+
 Cloudinary uploads use a public unsigned preset (`CloudinaryService.kt`); swap the cloud name
 and preset for your own if you want profile-photo upload to work.
 
